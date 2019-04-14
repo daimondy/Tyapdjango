@@ -1,9 +1,10 @@
 body {
-    background: #1abc9c;
+    background: rgba(172, 188, 173, 0);
     font-family: Tahoma, Arial, sans-serif;
     color: #333;
 }
-table {
+table tr td {
+border: 200px solid white;
     border-collapse: collapse;
 }
 p, h4 {
@@ -11,12 +12,13 @@ p, h4 {
     margin-bottom: 0;
 }
 h4 {
-    font-size: 14px;
+    font-size: 16px;
 }
 ul, ol {
     margin: 0;
 }
 table tr td {
+    border: 2px solid white;
     padding: 5px;
 }
 table {
